@@ -7,9 +7,15 @@
     tools:context=".FirstFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/card_view_design" />
+        android:id="@+id/recycler"
+        android:layout_width="379dp"
+        android:layout_height="696dp"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="17dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
